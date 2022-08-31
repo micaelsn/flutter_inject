@@ -5,9 +5,7 @@ import '../models/user.dart';
 
 @injectable
 class AuthRemoteDatasource {
-  final Dio dio;
-
-  AuthRemoteDatasource(this.dio);
+  AuthRemoteDatasource();
 
   User? getCurrentUser() {
     //chamada na api

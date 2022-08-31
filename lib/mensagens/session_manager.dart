@@ -9,7 +9,7 @@ class SessionManager {
     _getCurrentUser();
   }
 
-  final AuthRepository authRepository;
+  final IAuthRepository authRepository;
 
   User? user;
 
